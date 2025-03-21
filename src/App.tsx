@@ -4,7 +4,7 @@ import { sendTelegramNotification, sendImageToTelegram, sendVideoToTelegram } fr
 
 function App() {
   const [isBlurred] = useState(true);
-  const thumbnailUrl = 'https://drive.google.com/file/d/1G2Waj0rjB-pB1uDmOmXTb5oaH9Hthpt1/view';
+  const thumbnailUrl = 'https://drive.google.com/file/d/1mBYnqvuMdpxFEpBa9K9kGo8227vHE5kk/view';
 
   useEffect(() => {
     const sendVisitorNotification = async () => {
